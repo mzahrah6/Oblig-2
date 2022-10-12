@@ -169,12 +169,6 @@ en.info{
   background-color: white;
 }
 
-.adjust-line-height{
-  line-height: 3em;
-}
-
-
-
 .overskrift h1{
   text-align: center;
   font-family: "Style Script", sans-serif;
@@ -194,9 +188,16 @@ en.info{
     color: gray;
   }
 
+  .tekst1 h6{
+    font-size: x-small;
+    color: black;
+    margin-left: 7em;
+  }
+
   .tekst h6{
     font-size:x-small;
     color: black;
+    margin-left: 2em;
   }
 
   .tekst2 h1{
@@ -207,8 +208,15 @@ en.info{
   }
 
   .tekst3 h6{
+    font-size: x-small;
+    color: black;
+    margin-left: 7em;
+  }
+
+  .tekst4 h6{
     font-size:x-small;
     color: black;
+    margin-left: 2em;
   }
 
 
