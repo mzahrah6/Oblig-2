@@ -2,6 +2,6 @@
 
 #1200   #medlemmer
 
-#Alina : s365732
-#Hadeeqa
-#Masooma: s374971
+#Alina Ur-Rehman Khan: s365732
+#Hadeeqa Idress: s359019
+#Masooma Zahrah Azhar Khanum: s374971
