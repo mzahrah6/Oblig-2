@@ -162,3 +162,47 @@ nav {
   justify-content: absolute;
   position: absolute;
 }
+
+
+
+en.info{
+  background-color: white;
+}
+
+.adjust-line-height{
+  line-height: 3em;
+}
+
+
+info
+.overskrift h1{
+  text-align: center;
+  font-family: "Style Script",sans-serif;
+  font-size: 60px;
+  color: black;
+  z-index: 3;
+  bottom: 650px;
+    right: 500px;
+    top: 300px;
+    left: 550px;
+    justify-content: absolute;
+    position: absolute;
+  }    
+
+  .overskrift h6{
+
+  }
+
+  .tekst h5{
+
+  }
+
+  .tekst2 h1{
+
+  }
+
+  .tekst3 h5{
+
+  }
+
+
