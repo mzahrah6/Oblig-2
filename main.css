@@ -1,0 +1,164 @@
+
+/*FONTS, men usikker på hvilken som er best for tittelen*/
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.adjust-line-height{
+  line-height: 2em;
+}
+
+/*INTRO*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.row{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 0;
+}
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.column{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
+  background-size: cover;
+  z-index: 0;
+}
+img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #8B0000;
+}
+nav {
+  order: 1;
+}
+.nav__links a,
+.overlay__content a {
+  font-family: 'Times New Roman', Times, serif
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.cta{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+.nav__links li {
+  padding: 0px 20px;
+}
+.nav__links li:nth-child(1) {
+  padding: 0 20px 0 0;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: white;
+}
+.cta {
+  order: 2;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(249, 239, 239, 0.8);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.cta:hover {
+  background-color: rgba(249, 239, 239, 0.8);
+}
+
+.box{
+  width: 500px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 69% 19% 44% 54% / 59% 25% 63% 43%;
+  z-index: 2;
+  justify-content: absolute;
+  position: absolute;
+  bottom: 650px;
+  right: 500px;
+  top: 250px;
+  left: 500px;
+  }
+
+.heading h1{
+  text-align: center;
+  font-family: "Style Script", sans-serif;
+  font-size: 60px;
+  color: black;
+  z-index: 3;
+  bottom: 650px;
+  right: 500px;
+  top: 300px;
+  left: 550px;
+  justify-content: absolute;
+  position: absolute;
+}
+.heading h5{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: black;
+  z-index: 3;
+  bottom: 1000px;
+  right: 500px;
+  top: 500px;
+  left: 550px;
+  justify-content: absolute;
+  position: absolute;
+  opacity: 20%;
+}
+.heading h6{
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  color: #b90505;
+  z-index: 3;
+  bottom: 1050px;
+  right: 570px;
+  top: 550px;
+  left: 550px;
+  justify-content: absolute;
+  position: absolute;
+}
