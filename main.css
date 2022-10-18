@@ -1,14 +1,13 @@
-
 /*FONTS, men usikker på hvilken som er best for tittelen*/
 @import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 
-.adjust-line-height{
+.adjust-line-height {
   line-height: 2em;
 }
 
 /*INTRO*/
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,21 +15,25 @@ nav{
   font-family: 'Times New Roman', Times, serif;
   font-size: 17px;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-.row{
+
+.row {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   z-index: 0;
 }
-body{
+
+body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-.column{
+
+.column {
   position: relative;
   justify-content: center;
   align-items: center;
@@ -41,7 +44,8 @@ body{
   background-size: cover;
   z-index: 0;
 }
-img{
+
+img {
   width: 350px;
   height: 350px;
   object-fit: cover;
@@ -53,6 +57,7 @@ img{
   margin: 0;
   padding: 0;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -60,39 +65,47 @@ header {
   padding: 30px 10%;
   background-color: #8B0000;
 }
+
 nav {
   order: 1;
 }
+
 .nav__links a,
 .overlay__content a {
-  font-family: 'Times New Roman', Times, serif
-  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
 }
-.cta{
+
+.cta {
   font-family: 'Times New Roman', Times, serif;
   font-weight: 500;
   color: black;
   text-decoration: none;
 }
+
 .nav__links {
   list-style: none;
   display: flex;
   font-size: 20px;
 }
+
 .nav__links li {
   padding: 0px 20px;
 }
+
 .nav__links li:nth-child(1) {
   padding: 0 20px 0 0;
 }
+
 .nav__links li a {
   transition: all 0.3s ease 0s;
 }
+
 .nav__links li a:hover {
   color: white;
 }
+
 .cta {
   order: 2;
   margin-left: 20px;
@@ -103,11 +116,12 @@ nav {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
+
 .cta:hover {
   background-color: rgba(249, 239, 239, 0.8);
 }
 
-.box{
+.box {
   width: 500px;
   height: 500px;
   border: 1px solid white;
@@ -120,9 +134,9 @@ nav {
   right: 500px;
   top: 250px;
   left: 500px;
-  }
+}
 
-.heading h1{
+.heading h1 {
   text-align: center;
   font-family: "Style Script", sans-serif;
   font-size: 60px;
@@ -135,7 +149,8 @@ nav {
   justify-content: absolute;
   position: absolute;
 }
-.heading h5{
+
+.heading h5 {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -149,7 +164,8 @@ nav {
   position: absolute;
   opacity: 20%;
 }
-.heading h6{
+
+.heading h6 {
   text-align: right;
   font-family: 'Times New Roman', Times, serif;
   font-size: 10px;
@@ -165,72 +181,131 @@ nav {
 
 
 
-en.info{
+en.info {
   background-color: white;
 }
 
-.overskrift h1{
+.overskrift h1 {
   text-align: center;
   font-family: "Style Script", sans-serif;
   font-size: 60px;
   color: black;
-  }    
+}
 
-  .overskrift h6{
-    text-align: center;
-    font-size: 10px;
-    color: #b90505;
-  }
+.overskrift h6 {
+  text-align: center;
+  font-size: 10px;
+  color: #b90505;
+}
 
-  .overskrift h5{
-    text-align: center;
-    font-size: 10px;
-    color: black;
-    opacity: 20%;
-  }
+.overskrift h5 {
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  opacity: 20%;
+}
 
-  .tekst1 h6{
-    font-size: x-small;
-    color: black;
-    margin-left: 8em;
-  }
+.tekst1 h6 {
+  font-size: x-small;
+  color: black;
+  margin-left: 8em;
+}
 
-  .tekst h6{
-    font-size:x-small;
-    color: black;
-    margin-left: 3em;
-  }
+.tekst h6 {
+  font-size: x-small;
+  color: black;
+  margin-left: 3em;
+}
 
-  .tekst2 h1{
-  text-align:left;
+.tekst2 h1 {
+  text-align: left;
   font-family: "Style Script", sans-serif;
   font-size: 70px;
   color: black;
   margin-left: 1em;
   margin-bottom: 10px;
   margin-top: 10px;
-  }
-
-  .tekst3 h6{
-    font-size: x-small;
-    color: black;
-    margin-left: 8em;
-  }
-
-  .tekst4 h6{
-    font-size:x-small;
-    color: black;
-    margin-left: 3em;
-  }
-
-
-.cottage{
-  
 }
 
-.red {
-  
+.tekst3 h6 {
+  font-size: x-small;
+  color: black;
+  margin-left: 8em;
+}
+
+.tekst4 h6 {
+  font-size: x-small;
+  color: black;
+  margin-left: 3em;
 }
 
 
+.cottage {
+  width: 500px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: white;
+  z-index: 2;
+  justify-content: absolute;
+  position: absolute;
+  bottom: 1650px;
+  right: 500px;
+  top: 250px;
+  left: 500px;
+}
 
+#cottage {
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+}
+
+#red {
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+}
+
+#red2 {
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+}
+
+.cottage {
+  width: 500px;
+  height: 500px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+  z-index: 2;
+  justify-content: absolute;
+  position: absolute;
+  bottom: 1650px;
+  right: 300px;
+  top: 1150px;
+  left: 800px;
+}
+
+#red {
+  width: 250px;
+  height: 250px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+  z-index: 2;
+  justify-content: absolute;
+  position: absolute;
+  bottom: 2050px;
+  right: 150px;
+  top: 1550px;
+  left: 1000px;
+  rotate: 50%;
+}
+
+#red2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 63% 33% 52% 40% / 72% 50% 35% 27%;
+  z-index: 2;
+  justify-content: absolute;
+  position: absolute;
+  right: 600px;
+  top: 1750px;
+}
