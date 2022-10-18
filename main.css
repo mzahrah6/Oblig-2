@@ -110,7 +110,8 @@ nav {
 .box{
   width: 500px;
   height: 500px;
-  border: 2px solid black;
+  border: 1px solid white;
+  background-color: white;
   border-radius: 69% 19% 44% 54% / 59% 25% 63% 43%;
   z-index: 2;
   justify-content: absolute;
@@ -222,7 +223,17 @@ en.info{
     margin-left: 3em;
   }
 
-.bilder1og2 {
+*{
+  box-sizing: border-box;
+}
+
+.cottage{
   
 }
+
+.red {
+  
+}
+
+
 
