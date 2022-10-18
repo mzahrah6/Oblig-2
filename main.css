@@ -110,8 +110,7 @@ nav {
 .box{
   width: 500px;
   height: 500px;
-  border: 1px solid white;
-  background-color: white;
+  border: 2px solid black;
   border-radius: 69% 19% 44% 54% / 59% 25% 63% 43%;
   z-index: 2;
   justify-content: absolute;
